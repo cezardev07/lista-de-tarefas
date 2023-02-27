@@ -6,7 +6,7 @@
 }
 body{
     position: relative;
-    background: rgb(12, 70, 137);
+    background: rgb(12, 70, 137); transition: all .3s ease;
 }
 header,button,.commit-post,.alt-commit,.alt-commit .form,.alt-commit .form button{
     display: flex;

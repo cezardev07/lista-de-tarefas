@@ -1,3 +1,6 @@
+.darck{
+    background: rgb(14, 30, 53);
+}
 @keyframes op {
     0%{
         opacity: -1;

@@ -78,4 +78,24 @@ inpCommit.onchange = function () {
 
 }
 
+const btnTheme = document.querySelector(".theme button")
+const body = document.querySelector("body")
+
+btnTheme.onclick = theme;
+btnTheme.style.position = "fixed"
+btnTheme.style.bottom = "30px"
+btnTheme.style.right = "30px"
+
+btnTheme.style.cursor = "pointer"
+btnTheme.style.padding = "10px 20px"
+btnTheme.style.fontSize = "20px"
+btnTheme.style.border = "solid 2px #fff"
+btnTheme.style.color = "#fff"
+btnTheme.style.background = "transparent"
+btnTheme.style.borderRadius = "5px"
+
+function theme() {
+    body.classList.toggle("darck")
+}
+
 console.log("Hello dev!")
