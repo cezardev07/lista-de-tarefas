@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    position: relative;
+    background: rgb(12, 70, 137);
+}
+header,button,.commit-post,.alt-commit,.alt-commit .form,.alt-commit .form button{
+    display: flex;
+}
+header,.alt-commit,.alt-commit .form{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    transition: all .3s ease;
+    gap: 3px;
+}
+button:hover{
+    background: rgb(172, 15, 15);
+    scale: 1.1;
+}
