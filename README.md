@@ -20,6 +20,10 @@
 
 <br>
 
+<a href="https://cezardev07.github.io/lista-de-tarefas/" align="center">
+  <img src="https://github.com/cezardev07/lista-de-tarefas/blob/main/assets/bg-readme.png?raw=true" width="100%">
+</a>
+
 ## 📌 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
